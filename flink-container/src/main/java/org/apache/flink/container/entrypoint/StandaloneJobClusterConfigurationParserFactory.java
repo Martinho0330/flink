@@ -67,6 +67,7 @@ public class StandaloneJobClusterConfigurationParserFactory implements ParserRes
 		options.addOption(REST_PORT_OPTION);
 		options.addOption(JOB_CLASS_NAME_OPTION);
 		options.addOption(JOB_ID_OPTION);
+		options.addOption(HOST_OPTION);
 		options.addOption(DYNAMIC_PROPERTY_OPTION);
 		options.addOption(CliFrontendParser.SAVEPOINT_PATH_OPTION);
 		options.addOption(CliFrontendParser.SAVEPOINT_ALLOW_NON_RESTORED_OPTION);
